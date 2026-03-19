@@ -4,7 +4,7 @@ on:
 
 jobs:
     build-test:
-
+        runs-on: ubuntu-latest
         steps:
             - name: Exec do runner
               run: cat /etc/os-release
